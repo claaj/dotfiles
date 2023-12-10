@@ -1,0 +1,19 @@
+# Normal colors
+set $base00 #f2f2f2
+set $base01 #c82829
+set $base02 #718c00
+set $base03 #eab700
+set $base04 #4271ae
+set $base05 #c678dd
+set $base06 #8abeb7
+set $base07 #0d0d0d
+
+# Bright colors
+set $base08 #8e908c
+set $base09 #d55d5e
+set $base0A #94a83f
+set $base0B #efc93f
+set $base0C #81a2be
+set $base0D #d499e5
+set $base0E #a7cec9
+set $base0F #3f3f3f

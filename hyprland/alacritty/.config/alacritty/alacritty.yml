@@ -1,0 +1,30 @@
+import:
+  - "~/.config/alacritty/colors.yml"
+
+env:
+  TERM: alacritty
+  LANG: "es_AR.UTF-8"
+  LC_CTYPE: es_AR.UTF-8
+
+window:
+  opacity: 1.0
+  decorations: none
+  padding:
+    x: 20
+    y: 20
+
+font:
+  normal:
+    family: monospace
+    style: Regular
+  size: 13.5
+
+selection:
+  save_to_clipboard: false
+
+    #cursor:
+  #  style:
+#    shape: Beam
+
+shell:
+  program: /usr/bin/bash

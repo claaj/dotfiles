@@ -1,0 +1,69 @@
+schemes:
+ dark: &dark
+# Base16 Tomorrow Night 256 - alacritty color config
+# Chris Kempson (http://chriskempson.com)
+# Modified version with bright colors
+  primary:
+    background: '#1d1f21'
+    foreground: '#c5c8c6'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#1d1f21'
+    cursor: '#81a2be'
+
+  # Normal colors
+  normal:
+    black:   '#0d0d0d'
+    red:     '#cc6666'
+    green:   '#b5bd68'
+    yellow:  '#f0c674'
+    blue:    '#81a2be'
+    magenta: '#c9b4cf'
+    cyan:    '#8abeb7'
+    white:   '#c5c8c6'
+
+  # Bright colors
+  bright:
+    black:   '#494949'
+    red:     '#d88c8c'
+    green:   '#c7cd8d'
+    yellow:  '#f3d496'
+    blue:    '#a0b9ce'
+    magenta: '#d6c6db'
+    cyan:    '#a7cec9'
+    white:   '#ffffff'
+
+ light: &light
+  primary:
+    background: '#ffffff'
+    foreground: '#3f3f3f'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#4d4d4d'
+    cursor: '#81a2be'
+
+  # Normal colors
+  normal:
+    black:   '#f2f2f2'
+    red:     '#c82829'
+    green:   '#718c00'
+    yellow:  '#eab700'
+    blue:    '#4271ae'
+    magenta: '#c678dd'
+    cyan:    '#8abeb7'
+    white:   '#000000'
+
+  # Bright colors
+  bright:
+    black:   '#8e908c'
+    red:     '#d55d5e'
+    green:   '#94a83f'
+    yellow:  '#efc93f'
+    blue:    '#81a2be'
+    magenta: '#d499e5'
+    cyan:    '#a7cec9'
+    white:   '#3f3f3f'
+
+colors: *light
