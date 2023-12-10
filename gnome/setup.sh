@@ -1,4 +1,4 @@
-#----- Script para instalar Fedora Hyprland -----#
+#----- Script para instalar Fedora Gnome -----#
 
 echo 'defaultyes=True' | sudo tee -a /etc/dnf/dnf.conf
 echo 'max_parallel_downloads=20' | sudo tee -a /etc/dnf/dnf.conf
