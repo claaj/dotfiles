@@ -11,7 +11,7 @@ sudo dnf install \
         https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 sudo dnf copr enable claaj/typst -y
 
-sudo dnf install stow wl-clipboard xwaylandvideobridge -y
+sudo dnf install stow wl-clipboard -y
 
 sudo dnf install rust cargo rust-analyzer clang-devel zig cmake make just gcc meson ninja-build python-pip java-17-openjdk-devel neovim clang-devel -y
 
@@ -53,7 +53,6 @@ flatpak install flathub org.mozilla.Thunderbird -y
 flatpak install flathub dev.alextren.Spot -y
 flatpak install flathub com.jgraph.drawio.desktop -y
 flatpak install flathub com.valvesoftware.Steam -y
-flatpak install flathub com.valvesoftware.Steam.Utility.gamescope -y
 flatpak install org.freedesktop.Platform.VulkanLayer.gamescope -y
 flatpak install flathub org.libreoffice.LibreOffice -y
 flatpak install org.gtk.Gtk3theme.adw-gtk3 org.gtk.Gtk3theme.adw-gtk3-dark -y
@@ -62,11 +61,11 @@ flatpak install flathub org.prismlauncher.PrismLauncher -y
 
 sudo dnf remove -y libreoffice*
 
-sudo dnf remove -y gnome-tour yelp gnome-weather gnome-contacts gnome-connections gnome-boxes gnome-maps totem rhythmbox gnome-photos gnome-clocks
+# sudo dnf remove -y gnome-tour yelp gnome-weather gnome-contacts gnome-connections gnome-boxes gnome-maps totem rhythmbox gnome-photos gnome-clocks
 
 # Gnome setup
 dconf write /org/gnome/mutter/dynamic-workspaces false
-dconf write /org/gnome/desktop/wm/preferences/num-workspaces 7
+dconf write /org/gnome/desktop/wm/preferences/num-workspaces 9
 
 for i in {1..10}
 do
