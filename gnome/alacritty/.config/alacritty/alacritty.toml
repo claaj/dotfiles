@@ -1,0 +1,27 @@
+import = ["/home/maquinola/.config/alacritty/light.toml"]
+
+[env]
+LANG = "es_AR.UTF-8"
+LC_CTYPE = "es_AR.UTF-8"
+TERM = "alacritty"
+
+[font]
+size = 13.5
+
+[font.normal]
+family = "monospace"
+style = "Regular"
+
+[selection]
+save_to_clipboard = false
+
+[shell]
+program = "/usr/bin/bash"
+
+[window]
+decorations = "none"
+opacity = 1.0
+
+[window.padding]
+x = 20
+y = 20

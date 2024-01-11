@@ -1,2 +1,2 @@
 #!/usr/bin/sh
-sed -i "s#^colors: *.*#colors: *light#g" ~/.config/alacritty/colors.yml
+sed -i "s/dark/light/g" ~/.config/alacritty/alacritty.toml
