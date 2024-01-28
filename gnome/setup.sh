@@ -13,7 +13,7 @@ sudo dnf copr enable claaj/typst -y
 
 sudo dnf install stow wl-clipboard -y
 
-sudo dnf install rust cargo rust-analyzer clang-devel zig cmake make just gcc meson ninja-build python-pip java-17-openjdk-devel neovim clang-devel -y
+sudo dnf install rust cargo rust-analyzer clang-devel zig cmake make just gcc meson ninja-build python-pip java-17-openjdk-devel neovim clang-devel nodejs -y
 
 sudo dnf install adw-gtk3-theme gnome-shell-extension-pop-shell -y 
 
@@ -38,6 +38,10 @@ sudo dnf install lame\* --exclude=lame-devel
 sudo dnf group upgrade --with-optional Multimedia --allowerasing
 
 sudo dnf install dejavu-fonts-all google-noto-fonts-common intel-clear-sans-fonts liberation-fonts jetbrains-mono-fonts-all twitter-twemoji-fonts ibm-plex* rsms-inter-fonts abattis-cantarell-fonts -y  
+
+sudo dnf install v4l2loopback -y
+
+sudo dnf install solaar -y
 
 sudo usermod -aG libvirt $(whoami)
 sudo systemctl enable libvirtd --now
