@@ -79,6 +79,7 @@ return {
             zls = {},
             typst_lsp = {},
             marksman = {},
+            jdtls = {},
             lua_ls = {
               Lua = {
                 workspace = { checkThirdParty = false },

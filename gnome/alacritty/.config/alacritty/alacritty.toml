@@ -1,4 +1,4 @@
-import = ["/home/maquinola/.config/alacritty/light.toml"]
+import = ["/home/maquinola/.config/alacritty/oxocarbon-dark.toml"]
 
 [env]
 LANG = "es_AR.UTF-8"

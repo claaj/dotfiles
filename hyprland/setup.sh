@@ -14,7 +14,7 @@ sudo dnf copr enable solopasha/hyprland -y
 
 sudo dnf install hyprland waybar light wlogout alacritty dbus-daemon stow network-manager-applet polkit-gnome wofi wlsunset wl-clipboard mako swaybg hyprshot grim slurp xwaylandvideobridge -y
 
-sudo dnf install rust cargo rust-analyzer clang-devel zig cmake make just gcc meson ninja-build python-pip java-17-openjdk-devel neovim -y
+sudo dnf install rust cargo rust-analyzer clang-devel zig cmake make just gcc meson ninja-build python-pip java-17-openjdk-devel neovim java-17-openjdk-jmods -y
 
 sudo dnf install adw-gtk3-theme papirus-icon-theme -y
 

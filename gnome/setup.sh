@@ -13,7 +13,7 @@ sudo dnf copr enable claaj/typst -y
 
 sudo dnf install stow wl-clipboard -y
 
-sudo dnf install rust cargo rust-analyzer clang-devel zig cmake make just gcc meson ninja-build python-pip java-17-openjdk-devel neovim clang-devel nodejs -y
+sudo dnf install rust cargo rust-analyzer clang-devel zig cmake make just gcc meson ninja-build python-pip java-17-openjdk-devel neovim clang-devel nodejs java-17-openjdk-jmods -y
 
 sudo dnf install adw-gtk3-theme gnome-shell-extension-pop-shell -y 
 

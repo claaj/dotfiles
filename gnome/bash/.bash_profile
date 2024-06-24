@@ -5,3 +5,4 @@
 
 #Arrancar de una Sway
 [ "$(tty)" = "/dev/tty1" ] && XDG_CURRENT_DESKTOP=Hyprland dbus-run-session Hyprland
+
